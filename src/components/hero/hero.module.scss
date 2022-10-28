@@ -1,0 +1,123 @@
+.main {
+    width: 1200px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    .right {
+        // top: 200px;
+        // right: 400px;
+        // position: absolute;
+        width: 55%;
+    }
+
+    .left{
+        width: 45%;
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+
+        .items {
+            color: black;
+            font-size: 18px;
+            text-transform: capitalize;
+            background-color: burlywood;
+            padding: 10px;
+            width: 550px;
+            height: 270px;
+            border-radius: 10px;
+            margin-bottom: 20px;    
+
+        }
+
+        .title {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            .container:not(:first-child) {
+                min-width: 70px;
+                max-height: 40px;
+            }
+
+            .container {
+                display: flex;
+                align-items: center;
+                margin-right: 35px;
+            }
+
+            .smalIcon {
+                width: 25px;
+                height: 25px;
+                margin-right: 5px;
+            }
+
+            .icon {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            b {
+                color: #000;
+                font-weight: bold;
+                font-size: 18px;
+                text-overflow: ellipsis;
+            }
+
+            .special {
+                // height: 40px;
+                width: 100px;    
+                overflow: hidden;
+            }
+            .close{
+                fill: black;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+
+            .stats {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .icon {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+
+                .bar {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(48, 6, 6);
+                    height: 30px;
+                    width: 200px;
+                    border-radius: 10px;
+                }
+
+                .text {
+                    font-size: 18px;
+                }
+            }
+        }
+
+
+    }
+
+}

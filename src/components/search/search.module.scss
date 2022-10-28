@@ -1,0 +1,91 @@
+.search {
+    width: 300px;
+    position: relative;
+
+    .searchBar {
+        color: black;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .icon {
+        color: black;
+        cursor: pointer;
+        background-color: black;
+        padding: 5px;
+        font-size: 28px;
+        border-radius: 10px;
+        position: absolute;
+        top: 3px;
+        right: 48px;
+    }
+}
+
+.popup,
+.active {
+    position: relative;
+    width: 480px;
+    max-height: 460px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+
+        .heroes {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            transition: all ease .4s;
+    
+            &:hover {
+                transform: scale(1.2);
+            }
+    
+            .icon {
+                width: 100%;
+            }
+    
+            .tip {
+                position: absolute;
+                top: -30px;
+                left: -50%;
+                padding: 5px 15px;
+                border: 1px solid black;
+                background-color: burlywood;
+                border-radius: 5px;
+                color: black;
+                font-weight: 500;  
+            }
+        }
+    }
+
+}
+
+.active {
+    display: block;
+}
+
+.tipActive {
+    display: block;
+}
+
+.filter {
+    width: 100px;
+    height: 20px;
+    margin-bottom: 20px;
+    select {
+        color: black;
+
+        option {
+            color: black;
+
+        }
+    }
+}
