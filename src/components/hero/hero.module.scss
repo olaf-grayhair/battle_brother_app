@@ -38,15 +38,22 @@
             min-height: 100px;
             border-radius: 10px;
             margin-bottom: 20px;   
+            position: relative;
+
+            .compare{
+                position: absolute;
+                top: 125px;
+                left: 555px;
+                z-index: 10;
+            }
             
             .window{
                 background-color: rgb(48, 6, 6);
                 position: relative;
                 height: 35px;
                 margin-bottom: 10px;
-                .compare{
-                    
-                }
+                border-radius: 10px 10px 0 0;
+
                 .close, .minimize, .maximise{
                     width: 20px;
                     height: 20px;

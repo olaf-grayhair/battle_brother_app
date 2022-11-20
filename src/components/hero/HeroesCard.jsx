@@ -12,7 +12,7 @@ import RoundBtn from '../../UI/button/RoundBtn';
 import { observer } from 'mobx-react-lite';
 
 
-const HeroesCard = observer(({ closeBar, checkSkill, array, count }) => {
+const HeroesCard = observer(({ closeBar, checkSkill, array, flagHeroes }) => {
     const [show, setShow] = useState(false);
     const [arrShow, setArrShow] = useState([]);
 
@@ -37,12 +37,16 @@ const HeroesCard = observer(({ closeBar, checkSkill, array, count }) => {
     return (
         arrShow.map((element, index) =>
             <div className={style.items} key={Math.random(element)}>
-                <div className={style.window}>
-                    <div className={style.compare}>
-                        <RoundBtn
-                        handleClick={() => addHeroes(element.name)}
+                <div className={style.compare}>
+                    {flagHeroes === true
+                        ? <RoundBtn
+                            handleClick={() => addHeroes(element.name)}
                         />
-                    </div>
+                        : ''
+                    }
+
+                </div>
+                <div className={style.window}>
                     {element.bool === true
                         ? <FaWindowMinimize
                             onClick={() => hideStats(element.name)}

@@ -47,6 +47,7 @@ const Hero = observer(() => {
                     ? ''
                     : <div className={style.hero}>
                         <HeroesCard
+                            flagHeroes={true}
                             array={state.setHeroes}
                             closeBar={closeLeftBar}
                             checkSkill={state.checkSkill}
