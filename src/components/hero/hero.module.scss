@@ -3,10 +3,16 @@
     margin: 20px auto 0;
     display: flex;
     justify-content: space-between;
+    
+
+    .popupBlock{
+        position: absolute;
+        top: 0px;
+        z-index: 10;
+        left: 25px;
+    }
+
     .right {
-        // top: 200px;
-        // right: 400px;
-        // position: absolute;
         width: 55%;
     }
 
@@ -20,21 +26,52 @@
         justify-content: space-around;
         align-items: center;
         position: relative;
+        padding-bottom: 80px;
 
         .items {
             color: black;
             font-size: 18px;
             text-transform: capitalize;
             background-color: burlywood;
-            padding: 10px;
+            // padding: 0px 10px 10px 10px;
             width: 550px;
-            height: 270px;
+            min-height: 100px;
             border-radius: 10px;
-            margin-bottom: 20px;    
+            margin-bottom: 20px;   
+            
+            .window{
+                background-color: rgb(48, 6, 6);
+                position: relative;
+                height: 35px;
+                margin-bottom: 10px;
+                .compare{
+                    
+                }
+                .close, .minimize, .maximise{
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                    cursor: pointer;
+                }
+
+                .minimize{
+                    right: 50px;
+                    top: 0;
+                }
+
+                .maximise{
+                    right: 50px;
+                    top: 5px;
+                }
+            }
 
         }
 
         .title {
+            padding-right: 10px;
+            padding-left: 10px;
             position: relative;
             display: flex;
             align-items: center;
@@ -50,6 +87,11 @@
                 display: flex;
                 align-items: center;
                 margin-right: 35px;
+            }
+            .container:last-child {
+                b{
+                    width: 120px;
+                }
             }
 
             .smalIcon {
@@ -73,21 +115,20 @@
 
             .special {
                 // height: 40px;
-                width: 100px;    
+                max-height: 40px;
+                font-size: 16px;
+                width: 190px!important;    
                 overflow: hidden;
             }
-            .close{
-                fill: black;
-                width: 30px;
-                height: 30px;
-                position: absolute;
-                top: 0px;
-                right: 0px;
-            }
+
         }
 
-        .skills {
-            display: flex;
+        .skills, .active {
+            // display: flex;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            display: none;
             flex-wrap: wrap;
 
             .stats {
@@ -95,10 +136,11 @@
                 align-items: center;
                 margin-bottom: 10px;
 
-                .icon {
-                    width: 40px;
-                    height: 40px;
-                    margin-right: 10px;
+                .skillIcon{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 5px;
+                    margin-left: 5px;
                 }
 
                 .bar {
@@ -117,7 +159,9 @@
             }
         }
 
-
+        .active{
+            display: flex;
+        }
     }
-
 }
+

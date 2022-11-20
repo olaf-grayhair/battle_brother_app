@@ -4,6 +4,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/7/7f/Background_06.png",
         "level": "1-3",
         "price": 25,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -54,6 +55,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/ed/Background_70.png",
         "level": "1",
         "price": 12,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -104,6 +106,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/5/5b/Background_40.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -154,6 +157,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/33/Background_53.png",
         "level": "4",
         "price": 25,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -204,6 +208,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/33/Background_53.png",
         "level": "1",
         "price": 25,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -254,6 +259,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/39/Background_58.png",
         "level": "2-4",
         "price": 20,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -304,6 +310,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/0/0c/Background_37.png",
         "level": "1-3",
         "price": 14,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -354,6 +361,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/f4/Background_57.png",
         "level": "2-3",
         "price": 15,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -404,6 +412,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/c/c2/Background_18.png",
         "level": "1",
         "price": 3,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -454,6 +463,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/c/cb/Background_64.png",
         "level": "1",
         "price": 20,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -504,6 +514,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/3e/Background_29.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -554,6 +565,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/38/Background_27.png",
         "level": "1",
         "price": 13,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -604,6 +616,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/5/51/Background_43.png",
         "level": "1",
         "price": 7,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -654,6 +667,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e1/Background_12.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -704,6 +718,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/b1/BackgroundCompanion.png",
         "level": "1",
         "price": 14,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -754,6 +769,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/b1/BackgroundCompanion.png",
         "level": "1",
         "price": 14,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -804,6 +820,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/b1/BackgroundCompanion.png",
         "level": "1",
         "price": 14,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -854,6 +871,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/1/1a/Background_65.png",
         "level": "2-4",
         "price": 30,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -904,6 +922,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/7/77/Background_54.png",
         "level": "9",
         "price": 25,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -954,6 +973,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/bd/Cultist.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1004,6 +1024,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/5/57/Daytaler.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1054,6 +1075,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/93/Disowned_noble.png",
         "level": "1-3",
         "price": 18,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1104,6 +1126,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/2/2e/Eunuch.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1154,6 +1177,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/2/23/Farmhand.png",
         "level": "1",
         "price": 10,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1204,6 +1228,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/f0/Fisherman.png",
         "level": "1",
         "price": 7,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1254,6 +1279,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/94/Flagellant.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1304,6 +1330,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/94/Flagellant.png",
         "level": "1",
         "price": 5,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1354,6 +1381,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/8/8a/Gambler.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1404,6 +1432,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/2/27/Background_61.png",
         "level": "2-4",
         "price": 35,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1454,6 +1483,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/8/87/Gravedigger.png",
         "level": "1",
         "price": 5,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1504,6 +1534,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/4/45/Background_25.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1554,6 +1585,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/2/2e/Background_33.png",
         "level": "2-5",
         "price": 35,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1604,6 +1636,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/3a/Historian.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1654,6 +1687,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e4/Houndmaster.png",
         "level": "1",
         "price": 7,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1704,6 +1738,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/b9/Hunter2.png",
         "level": "1-2",
         "price": 20,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1754,6 +1789,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/b/be/Juggler.png",
         "level": "1",
         "price": 7,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1804,6 +1840,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/d/d6/Killer_on_the_run.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1854,6 +1891,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/fb/Background_59.png",
         "level": "3",
         "price": 30,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1904,6 +1942,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/31/Background_71.png",
         "level": "1",
         "price": 28,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -1954,6 +1993,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/c/cc/Lumberjack.png",
         "level": "1",
         "price": 13,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2004,6 +2044,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/f0/Background_62.png",
         "level": "1",
         "price": 10,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2054,6 +2095,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/8/84/Mason.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2104,6 +2146,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/f2/Messenger.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2154,6 +2197,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e7/Militia.png",
         "level": "1-2",
         "price": 10,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2204,6 +2248,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/5/5d/Miller.png",
         "level": "1",
         "price": 7,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2254,6 +2299,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/4/4a/Miner.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2304,6 +2350,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/6/66/Minstrel.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2354,6 +2401,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/4/44/Monk.png",
         "level": "1",
         "price": 5,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2404,6 +2452,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/4/44/Monk.png",
         "level": "1",
         "price": 5,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2454,6 +2503,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/9a/Background_63.png",
         "level": "2-4",
         "price": 28,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2504,6 +2554,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/9a/Background_63.png",
         "level": "2-4",
         "price": 28,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2554,6 +2605,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/7/7e/Background_69.png",
         "level": "1-3",
         "price": 22,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2604,6 +2656,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e5/Background_55.png",
         "level": "9",
         "price": 25,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2654,6 +2707,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e5/Peddler.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2704,6 +2758,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/7/7c/Background_56.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2754,6 +2809,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/9/9a/Poacher.png",
         "level": "1",
         "price": 8,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2804,6 +2860,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/c/cc/Raider2.png",
         "level": "2-4",
         "price": 28,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2854,6 +2911,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/f1/Ratcatcher.png",
         "level": "1",
         "price": 4,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2904,6 +2962,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/2/22/Refugee.png",
         "level": "1",
         "price": 4,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -2954,6 +3013,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/0/0e/Retired_soldier.png",
         "level": "2-3",
         "price": 15,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3004,6 +3064,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/d/d3/Sellsword.png",
         "level": "2-4",
         "price": 35,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3054,6 +3115,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/8/83/Servant.png",
         "level": "1",
         "price": 4,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3104,6 +3166,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/8/80/Shepherd.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3154,6 +3217,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/0/00/Squire.png",
         "level": "1",
         "price": 20,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3204,6 +3268,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/4/4f/Swordmaster2.png",
         "level": "3-5",
         "price": 35,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3254,6 +3319,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/6/6d/Tailor.png",
         "level": "1",
         "price": 5,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3304,6 +3370,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/fc/Thief.png",
         "level": "1",
         "price": 10,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3354,6 +3421,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/e/e7/Vagabond.png",
         "level": "1",
         "price": 6,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3404,6 +3472,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/3/38/Wildman.png",
         "level": "1-2",
         "price": 12,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",
@@ -3454,6 +3523,7 @@ export const heroes = [
         "img": "https://static.wikia.nocookie.net/battlebrothers/images/f/fd/Witchhunter.png",
         "level": "1-3",
         "price": 13,
+        "bool": true,
         "stats": [
             {
                 "skill": "hitpoints",

@@ -1,8 +1,13 @@
+import { observer } from 'mobx-react-lite';
 import {React, useState} from 'react';
-import style from './search.module.scss'
+import state from '../../state/state';
+import style from './stats.module.css'
 
-const Filter = ({setValue}) => {
-    // const [state, setstate] = useState('')
+
+const Filter = observer(() => {
+    const setValue = (name) => {
+        state.filerHeroes(name)
+    }
 
     return (
         <div className={style.filter}>
@@ -15,6 +20,6 @@ const Filter = ({setValue}) => {
             </select>
         </div>
     );
-}
+})
 
 export default Filter;

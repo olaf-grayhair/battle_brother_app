@@ -10,6 +10,7 @@ const Navbar = () => {
     return (
         <div className={style.navbar}>
             <div className={style.container}>
+                <Search setValue={setValue} />
                 <ul >
                     <li className={style.item}>
                         <Link to='/'
@@ -17,14 +18,10 @@ const Navbar = () => {
                         >Home</Link>
                     </li>
                     <li className={style.item}>
-                        <Link to='/compare'
-                            className={style.item}>Compare</Link>
-                    </li>
-                    <li>
-                        <Link to='/skills' className={style.item} >Skills</Link>
-                    </li>
+                        <Link to='/heroes'
+                            className={style.item}>heroes</Link>
+                    </li> 
                 </ul>
-                <Search setValue={setValue} />
             </div>
         </div>
     );

@@ -1,8 +1,10 @@
 import {React, useState} from 'react';
-import style from './search.module.scss'
 import { FiSearch } from 'react-icons/fi';
+import { observer } from 'mobx-react-lite';
+import state from '../../state/state'
+import style from './search.module.scss'
 
-const Search = ({setValue}) => {
+const Search = observer(({setValue}) => {
     const [search, setSearch] = useState('');
 
     const onChange = (e) => {
@@ -10,7 +12,8 @@ const Search = ({setValue}) => {
     }
 
     const handleClick = () => {
-        setValue(search)
+        // state.setSearchName(search)
+        state.heroFilter(search)
         setSearch('')
     }
     console.log(search, 'search');
@@ -29,6 +32,6 @@ const Search = ({setValue}) => {
             />
         </div>
     );
-}
+})
 
 export default Search;

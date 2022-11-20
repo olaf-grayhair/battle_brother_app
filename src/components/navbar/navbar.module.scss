@@ -9,8 +9,16 @@
 
         ul {
             display: flex;
+            justify-content: space-between;
+            width: 150px;
             .item {
                 font-size: 22px;
+                font-weight: 800;
+                text-transform: capitalize;
+                transition: all ease .4s    ;
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
         }
 
