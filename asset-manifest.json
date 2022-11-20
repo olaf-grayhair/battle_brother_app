@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/battle_brother_app/static/css/main.bf1dfcb3.css",
-    "main.js": "/battle_brother_app/static/js/main.13e62d76.js",
+    "main.css": "/battle_brother_app/static/css/main.856b2824.css",
+    "main.js": "/battle_brother_app/static/js/main.478a7934.js",
     "static/media/bg1.png": "/battle_brother_app/static/media/bg1.ee369332cc5c0e84bf41.png",
     "static/media/bg2.jpg": "/battle_brother_app/static/media/bg2.577bf3332dcd53925739.jpg",
     "static/media/bg3.jpg": "/battle_brother_app/static/media/bg3.d43dd6a61c710f1f2f24.jpg",
@@ -14,11 +14,11 @@
     "static/media/Fatigue.webp": "/battle_brother_app/static/media/Fatigue.b5da2e57f2123e68994d.webp",
     "static/media/hitpoints.webp": "/battle_brother_app/static/media/hitpoints.098c718706d2d3ced8e4.webp",
     "static/media/meleeSkill.webp": "/battle_brother_app/static/media/meleeSkill.86d027e6583838a07401.webp",
-    "main.bf1dfcb3.css.map": "/battle_brother_app/static/css/main.bf1dfcb3.css.map",
-    "main.13e62d76.js.map": "/battle_brother_app/static/js/main.13e62d76.js.map"
+    "main.856b2824.css.map": "/battle_brother_app/static/css/main.856b2824.css.map",
+    "main.478a7934.js.map": "/battle_brother_app/static/js/main.478a7934.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf1dfcb3.css",
-    "static/js/main.13e62d76.js"
+    "static/css/main.856b2824.css",
+    "static/js/main.478a7934.js"
   ]
 }
