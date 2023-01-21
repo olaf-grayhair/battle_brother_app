@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <Background setBg={setBg} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/battle_brother_app" element={<Home />} />
           <Route path="/heroes" element={<Heroes />} />
 
         </Routes>
